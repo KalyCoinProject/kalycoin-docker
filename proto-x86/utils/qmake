@@ -1,0 +1,13 @@
+#!/bin/bash
+
+export CC=i686-kalycoin-gcc
+export LD=i686-kalycoin-ld
+export CXX=i686-kalycoin-g++
+export CPP=i686-kalycoin-cpp
+export AR=i686-kalycoin-ar
+export STRIP=i686-kalycoin-strip
+export OBJCOPY=i686-kalycoin-objcopy
+
+cd ${HOME}/bind
+
+make "$@"

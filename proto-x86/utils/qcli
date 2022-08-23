@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/bind
+~/kalycoin/kalycoin-cli -regtest "$@"
